@@ -76,7 +76,7 @@ The simulation behavior is entirely decoupled from the source code, controlled v
 ### Analyzing Results
 
 #### Visualization
-The solver generates a profile plot of θ (Volumetric Water Content) vs. Depth. The axes utilize **Auto-Zooming**, wrapping tightly around current values to reveal subtle capillary wicking or evaporation-driven drying that might otherwise be missed.
+The solver generates a profile plot of θ (Volumetric Water Content) vs. Depth. The axes utilize **Auto-Zooming**, wrapping tightly around current values to reveal subtle capillary wicking or evaporation-driven drying that might otherwise be missed. Because it zooms in, you sometimes it will appear as if the theta levels vary quite a bit but it turns out that the scale is just super zoomed in.
 
 #### Technical Audit
 After every run, check `simulation_report.txt`. 
