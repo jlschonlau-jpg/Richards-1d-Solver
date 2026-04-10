@@ -1,9 +1,7 @@
-========================================
 1D Richards Equation Solver (Python)
 Author: Jacob Schonlau
 Institution: Brigham Young University (Research)
 Date: April 2026
-========================================
 
 Overview
 --------
