@@ -1,0 +1,24 @@
+{
+  "soil_properties": {
+    "theta_r": 0.067,
+    "theta_s": 0.45,
+    "alpha": 0.02,
+    "n": 1.6,
+    "Ks": 0.5
+  },
+  "grid_setup": {
+    "total_depth": 100.0,
+    "node_spacing": 1.0
+  },
+  "conditions": {
+    "top_flux": 0.4,
+    "bottom_head": -500.0,
+    "initial_head": -500.0
+  },
+  "solver_settings": {
+    "max_time": 48.0,
+    "initial_dt": 0.001,
+    "max_dt": 0.5,
+    "averaging_mode": "all"
+  }
+}
